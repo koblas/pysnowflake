@@ -32,10 +32,11 @@ unique numbers will insure unique identifers generated.
 
 API (aka URLs):
 ----
-   /id/<USERAGENT>    -- get a unique ID, <USERAGENT> is provided for metrics purposes
-   /timestamp/        -- get the current timestamp for this host
-   /datacenter/       -- get the data center identifier for this process
-   /worker/           -- get the data center identifier for this process
+
+    /id/<USERAGENT>    -- get a unique ID, <USERAGENT> is provided for metrics purposes
+    /timestamp/        -- get the current timestamp for this host
+    /datacenter/       -- get the data center identifier for this process
+    /worker/           -- get the data center identifier for this process
 
 
 Issues
