@@ -30,6 +30,14 @@ unique numbers will insure unique identifers generated.
   WORKER_ID is the identifier for this process 
   DATACENTER_ID is the identifier for this datacenter
 
+API (aka URLs):
+----
+   /id/<USERAGENT>    -- get a unique ID, <USERAGENT> is provided for metrics purposes
+   /timestamp/        -- get the current timestamp for this host
+   /datacenter/       -- get the data center identifier for this process
+   /worker/           -- get the data center identifier for this process
+
+
 Issues
 ------
 
